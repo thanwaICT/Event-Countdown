@@ -71,5 +71,4 @@ GitHub: @thanwaICT
 
 🙏 Acknowledgments
 
-Design inspiration from modern countdown timer applications
 Built as a portfolio project to demonstrate React and TypeScript skills
