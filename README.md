@@ -1,6 +1,15 @@
 Event Countdown Timer
 A modern, real-time event countdown timer built with React and TypeScript. Features a sleek UI with gradient effects, automatic updates without page reloads, and celebration animations when events begin.
 
+## 🛠️ Built With React + TypeScript
+
+This project uses **React** for its component-based architecture and efficient rendering, combined with **TypeScript** for type safety and improved code quality. The countdown timer showcases:
+
+- React Hooks (`useState`, `useEffect`, `useRef`)
+- TypeScript interfaces for type-safe props
+- Proper cleanup to prevent memory leaks
+- Real-time state updates without page reloads
+
 🚀 Features
 
 Real-time Countdown: Precise countdown timer that updates every second
@@ -16,6 +25,7 @@ Tailwind CSS - Utility-first CSS framework for styling
 Vite - Fast build tool and development server
 
 #
+
 📋 Prerequisites
 
 Node.js (v16 or higher)
@@ -43,6 +53,7 @@ yarn dev
 Open your browser and navigate to http://localhost:5173
 
 #
+
 🎯 How It Works
 The countdown timer calculates the time difference between the current time and a target date/time, then updates every second using React's useEffect and setInterval. When the countdown reaches zero, it triggers a celebration animation and stops the timer.
 Key implementation details:
